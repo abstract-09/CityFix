@@ -11,7 +11,7 @@ from flask import Flask, jsonify, request, send_from_directory
 from itsdangerous import URLSafeTimedSerializer
 from werkzeug.exceptions import HTTPException
 
-from .api import ALL_BLUEPRINTS
+from api import ALL_BLUEPRINTS
 from .config import Settings
 from .constants import MSG_SYSTEM_ERROR, ROOT, msg_too_large
 from .db import close_db, connect, init_db
