@@ -1,0 +1,16 @@
+{
+  "categories": ["Road Damage", "Water Leak", "Streetlight Defect", "Waste Management", "Drainage Overflow", "Other"],
+  "severities": ["Low", "Medium", "Critical"],
+  "statuses": ["Received", "In Progress", "Resolved"],
+  "departments": [
+    "Road Construction Department Bihar",
+    "National Highways Authority of India",
+    "Municipal Corporation",
+    "General Municipal Services"
+  ],
+  "confidence_threshold": 0.7,
+  "duplicate_radius_m": 50,
+  "highway_buffer_m": 50,
+  "max_description_chars": 500,
+  "markers": { "Critical": "red", "Medium": "orange", "Low": "yellow", "Resolved": "green" }
+}

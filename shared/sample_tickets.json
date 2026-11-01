@@ -1,0 +1,48 @@
+[
+  {
+    "ticket_id": "CIV-2026-0001",
+    "media_url": "https://storage.cityfix.local/samples/pothole1.jpg",
+    "latitude": 25.5562, "longitude": 84.8512,
+    "reported_at": "2026-10-31T08:30:00Z",
+    "category": "Road Damage", "severity": "Critical", "status": "Received",
+    "assigned_department": "Road Construction Department Bihar",
+    "description": "Severe pothole near railway station exit causing traffic obstruction",
+    "reporter_contact": "citizen1@example.com",
+    "resolution_proof_url": null, "resolved_at": null,
+    "history": [
+      {"at": "2026-10-31T08:30:00Z", "kind": "created", "status": "Received", "message": "Report received and routed to Road Construction Department Bihar.", "actor": "system"}
+    ]
+  },
+  {
+    "ticket_id": "CIV-2026-0002",
+    "media_url": "https://storage.cityfix.local/samples/leak1.jpg",
+    "latitude": 25.5601, "longitude": 84.8550,
+    "reported_at": "2026-10-30T14:15:00Z",
+    "category": "Water Leak", "severity": "Medium", "status": "In Progress",
+    "assigned_department": "Municipal Corporation",
+    "description": "Main supply line rupture leaking water onto roadway",
+    "reporter_contact": null,
+    "resolution_proof_url": null, "resolved_at": null,
+    "history": [
+      {"at": "2026-10-30T14:15:00Z", "kind": "created", "status": "Received", "message": "Report received and routed to Municipal Corporation.", "actor": "system"},
+      {"at": "2026-10-30T16:40:00Z", "kind": "status_change", "status": "In Progress", "message": "Repair crew assigned.", "actor": "Municipal Corporation"}
+    ]
+  },
+  {
+    "ticket_id": "CIV-2026-0003",
+    "media_url": "https://storage.cityfix.local/samples/light1.jpg",
+    "latitude": 25.5580, "longitude": 84.8525,
+    "reported_at": "2026-10-29T10:00:00Z",
+    "category": "Streetlight Defect", "severity": "Low", "status": "Resolved",
+    "assigned_department": "Municipal Corporation",
+    "description": "Non-functional street lamp pole number 14",
+    "reporter_contact": "9876543210",
+    "resolution_proof_url": "https://storage.cityfix.local/samples/light1_fixed.jpg",
+    "resolved_at": "2026-10-30T11:45:00Z",
+    "history": [
+      {"at": "2026-10-29T10:00:00Z", "kind": "created", "status": "Received", "message": "Report received and routed to Municipal Corporation.", "actor": "system"},
+      {"at": "2026-10-29T15:20:00Z", "kind": "status_change", "status": "In Progress", "message": "Electrician scheduled.", "actor": "Municipal Corporation"},
+      {"at": "2026-10-30T11:45:00Z", "kind": "status_change", "status": "Resolved", "message": "Lamp replaced and tested. Photo proof attached.", "actor": "Municipal Corporation"}
+    ]
+  }
+]

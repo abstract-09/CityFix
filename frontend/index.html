@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CityFix Civic Grievance Portal</title>
+  <meta name="description" content="Report road, water and lighting problems. CityFix routes each report to the responsible department and shows its progress publicly.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+  <link rel="stylesheet" href="./styles/main.css">
+  <script src="./config.js"></script>
+  <script type="module" src="./main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#/" aria-label="CityFix Civic Grievance Portal, home">
+        <svg class="brand__mark" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="currentColor"/>
+          <path d="M16 26s-7-5.6-7-11.2a7 7 0 1 1 14 0C23 20.4 16 26 16 26z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M12.8 15.2l2.2 2.2 4.2-4.6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand__text"><strong>CityFix</strong> Civic Grievance Portal</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#/" data-nav="report">Submit Issue</a>
+        <a href="#/track" data-nav="track">Track Ticket</a>
+        <a href="#/dashboard" data-nav="dashboard">Public Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="container" tabindex="-1" aria-live="polite">
+    <noscript><p class="banner banner--error">CityFix needs JavaScript to run. Please enable it in your browser.</p></noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>Demo build: boundaries and sample reports are synthetic.</p>
+      <p class="site-footer__staff">
+        <a href="#/officer" data-nav="officer">Officer portal</a>
+        <a href="#/admin" data-nav="admin">Admin console</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

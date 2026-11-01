@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "name": "CityFix demo boundaries",
+  "note": "Synthetic demo geometry around Bihta, Bihar. These are NOT real administrative boundaries. Replace them from the admin console with real GeoJSON.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "type": "ward", "name": "Ward 12 (Station Area)" },
+      "geometry": { "type": "Polygon", "coordinates": [[[84.845, 25.553], [84.853, 25.553], [84.853, 25.563], [84.845, 25.563], [84.845, 25.553]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "type": "ward", "name": "Ward 13 (Market)" },
+      "geometry": { "type": "Polygon", "coordinates": [[[84.853, 25.553], [84.862, 25.553], [84.862, 25.563], [84.853, 25.563], [84.853, 25.553]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "type": "state_highway", "name": "Demo State Highway (Station Road)" },
+      "geometry": { "type": "LineString", "coordinates": [[84.840, 25.5562], [84.865, 25.5562]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "type": "national_highway", "name": "Demo National Highway (Bypass)" },
+      "geometry": { "type": "LineString", "coordinates": [[84.835, 25.5700], [84.870, 25.5720]] }
+    }
+  ]
+}
